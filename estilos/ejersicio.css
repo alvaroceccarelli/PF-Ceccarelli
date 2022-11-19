@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../imagenes/backej.png);
+    background-repeat: no-repeat;
+    background-size: 250%;
+}
+.divmenu{
+    background-repeat: no-repeat ;
+    background-position: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-size: 436px;
+    margin-right: 1rem;
+    margin-top: 50px;
+    }
+    .rutina{
+        border: black solid 4px;
+        background-image: url(../imagenes/fondo\ menu.svg);
+    }
+    .nutricion{
+        border: black solid 4px;
+        background-image: url(../imagenes/fondo\ menu.svg);
+    }
+    .ejersicio{
+        border: black solid 4px;
+        background-image: url(../imagenes/fondo\ menu.svg);
+    }
+    .contacto{
+        border: black solid 4px;
+        background-image: url(../imagenes/fondo\ menu.svg);
+    }
+
+
+
+.menu{
+    list-style-type: none;
+    position: right ;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+    position: right;
+}
+.menu li a{
+    text-decoration: none;
+    display: inline-block;
+    position:right;
+}
+.menu li a:hover{
+    color: rgb(255, 251, 0);
+    border-radius: 50%;
+    background-color: rgb(85, 85, 255);
+}
+.divtd{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.divse{
+    display: flex;
+    flex-direction: row;
+}
+p{
+    width: 900px;
+    font-family: 'Abril Fatface', 
+}
+h1{
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-bottom: 80px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+iframe{
+    margin-top: 60;
+    padding: 20px;
+}
+.img1{
+    height: 250px;
+    border: solid black 8px;
+}
+.img2{
+    height: 250px;
+    border: solid black 8px;
+}
+.img3{
+    height: 250px;
+    border: solid black 8px;
+}
+.img4{
+    height: 250px;
+    border: solid black 8px;
+}

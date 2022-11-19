@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+   
+    background-repeat: no-repeat;
+    background-size: 250%;
+    background-image: url(../imagenes/backruti.png)
+}
+.divmenu{
+    background-repeat: no-repeat ;
+    background-position: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-size: 436px;
+    margin-right: 1rem;
+    margin-top: 50px;
+    }
+   
+    .nutricion{
+        border: black solid 4px;
+        background-image: url(../imagenes/fondo\ menu.svg);
+    }
+    .ejersicio{
+        border: black solid 4px;
+        background-image: url(../imagenes/fondo\ menu.svg);
+    }
+    .contacto{
+        border: black solid 4px;
+        background-image: url(../imagenes/fondo\ menu.svg);
+    }
+    .menu{
+        list-style-type: none;
+        position: right ;
+    }
+    .menu li{
+        display: inline-block;
+        text-align: center;
+        position: right;
+    }
+    .menu li a{
+        text-decoration: none;
+        display: inline-block;
+        position:right;
+    }
+    .menu li a:hover{
+        color: rgb(255, 251, 0);
+        border-radius: 50%;
+        background-color: rgb(85, 85, 255);}
+        h1{
+            margin-left: 50px;
+        }
+        .p1{
+            width: 900px;
+            height: fit-content;
+            display: flex;
+            flex-direction: row;
+            margin-left: 20px;
+         }
+            .divp1{
+                display: flex;
+                flex-direction: row;
+                align-content: space-evenly;
+                border-bottom: 1500px;
+            }
+            .lista{
+               padding-left: 100px;
+            margin-bottom: 500px;
+            border: black solid 2px;
+            height: fit-content;
+         }
+         .h2musc{
+            padding-left: 30px;
+            padding-bottom: 20px;
+         }
+         .video{
+            padding-left:100px ;
+            border-bottom: 1000px;
+         }
+            
+            .divmusc{
+                display: flex;
+                flex-direction: row;}
+                p{
+                    font-family: 'Abril Fatface', 
+                }
+                h1{
+                    font-family: 'Cinzel Decorative', cursive;
+                }

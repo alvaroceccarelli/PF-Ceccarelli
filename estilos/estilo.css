@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    background-image: url(../imagenes/blurry-gradient-haikei.png);
+    background-size: 28%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    margin-top: 10px;
+}
+.pain{
+    border: double black 2px;
+    margin-left: 40px;
+    width: 300px;
+    height: 150px;
+}
+body{
+    background-image: url(../imagenes/background.webp);
+    background-repeat: no-repeat;
+    background-size: 300%;
+}
+.divmenu{
+    background-repeat: no-repeat ;
+    background-position: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-size: 436px;
+    margin-right: 1rem;
+    }
+    .rutina{
+        border: black solid 4px;
+        background-image: url(../imagenes/fondo\ menu.svg);
+    }
+    .nutricion{
+        border: black solid 4px;
+        background-image: url(../imagenes/fondo\ menu.svg);
+    }
+    .ejersicio{
+        border: black solid 4px;
+        background-image: url(../imagenes/fondo\ menu.svg);
+    }
+    .contacto{
+        border: black solid 4px;
+        background-image: url(../imagenes/fondo\ menu.svg);
+    }
+
+
+
+.menu{
+    list-style-type: none;
+    position: right ;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+    position: right;
+}
+.menu li a{
+    text-decoration: none;
+    display: inline-block;
+    position:right;
+}
+.menu li a:hover{
+    color: rgb(255, 251, 0);
+    border-radius: 50%;
+    background-color: rgb(85, 85, 255);
+}
+nav{
+    position: right;
+}
+
+   
+    
+
+.p1{
+    width: 1500px;
+    display: flex;
+    flex-direction: row;
+}
+.imagennosotros{
+    width: 600px;
+    height: 250px;
+    padding-left: 100px;
+    
+    image-rendering: optimizeQuality;
+    }
+.p2{
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+}
+.rutina2{
+    width: 500px;
+    height: 300px;
+    padding-left: 50px;
+}
+.piramide{
+    width: 400px;
+    height: 300px;
+    padding-left: 100px;
+    margin-top: 40px;
+}
+
+
+
+.p3{
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+}
+footer{
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+.divfoot{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+.ulf{
+    padding-left: 50px;
+}
+.imgf{
+    width: 500px;
+}
+.ig{
+    width: 100px;
+}
+svg{
+    width: 100px;
+    margin-left: 1700px;
+}
+.pig{
+    margin-left: 1700px
+}
+
+p{
+    font-family: 'Abril Fatface', 
+}
+h2{
+    font-family: 'Cinzel Decorative', cursive;
+}
+
