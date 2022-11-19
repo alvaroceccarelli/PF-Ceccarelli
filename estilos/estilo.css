@@ -144,6 +144,9 @@ p{
 h2{
     font-family: 'Cinzel Decorative', cursive;
 }
+.barra{
+    position: right;
+}
 
 @media screen and (min-width: 768px){
     body{
@@ -179,6 +182,7 @@ h2{
     padding-left: 0px;
 }
 }
+
 
 
 @media screen and (min-width: 1200px){
