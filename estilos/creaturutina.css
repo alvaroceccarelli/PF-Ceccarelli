@@ -90,17 +90,58 @@ body{
                 h1{
                     font-family: 'Cinzel Decorative', cursive;
                 }
-                @media screen and (min-width: 768px){
+                @media screen and (min-width: 320px){
                   body{
-                    background-size: 1000%;
+                    background-size: 8000%;
                   } 
+                  .divp1{
+                    width: 100px;
+                    flex-direction: column;
+                  }
+                  .p1{
+                    width: 280px;
+                  }
+                  .lista{
+                    width: 280px;
+                  }
                    .divmusc{
                     flex-direction: column;
-                    width: 450px;
+                    width: 280px;
                    }
+                   .video{
+                    padding: 0;
+                    width: 300px;
                 }
                 @media screen and (min-width: 1200px){
-                    .divmusc{
+                    .divp1{
+                        
+                        flex-direction: row;
+                        align-content: space-evenly;
+                        border-bottom: 1500px;
+                        width: auto;
+                    }
+                    .p1{
+                        width: 1300px;
+                        height: fit-content;
+                        display: flex;
+                        flex-direction: row;
+                        margin-left: 20px;
+                     }
+                     .lista{
+                        padding-left: 100px;
+                     margin-bottom: 500px;
+                     border: black solid 2px;
+                     height: fit-content;
+                     width: 400px;
+                  }
+                  .divmusc{
+                    display: flex;
                     flex-direction: row;
-                    width: 1500px;}
+                width: auto;}
+                  .video{
+                        padding-left:100px ;
+                        border-bottom: 1000px;
+                        width: 500px;
+                     }
                 }
+                
