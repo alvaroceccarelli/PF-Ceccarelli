@@ -22,31 +22,8 @@ body{
     background-repeat: no-repeat;
     background-size: 300%;
 }
-.divmenu{
-    background-repeat: no-repeat ;
-    background-position: right;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    background-size: 436px;
-    margin-right: 1rem;
-    }
-    .rutina{
-        border: black solid 4px;
-        background-image: url(../imagenes/fondo\ menu.svg);
-    }
-    .nutricion{
-        border: black solid 4px;
-        background-image: url(../imagenes/fondo\ menu.svg);
-    }
-    .ejersicio{
-        border: black solid 4px;
-        background-image: url(../imagenes/fondo\ menu.svg);
-    }
-    .contacto{
-        border: black solid 4px;
-        background-image: url(../imagenes/fondo\ menu.svg);
-    }
+
+  
 
 
 
@@ -59,7 +36,7 @@ nav{
     
 
 .p1{
-    width: 1500px;
+    width: 1200px;
     display: flex;
     flex-direction: row;
 }
@@ -171,7 +148,7 @@ h2{
 
 @media screen and (min-width: 1200px){
     .p1{
-        width: 1700px;
+        width: 1300px;
         display: flex;
         flex-direction: row;
     }
@@ -183,7 +160,7 @@ h2{
         image-rendering: optimizeQuality;
         }
     .p2{
-        width: 1600px;
+        width: 1300px;
         display: flex;
         flex-direction: row;
     }
@@ -202,7 +179,7 @@ h2{
     
     
     .p3{
-        width: 1400px;
+        width: 1300px;
         display: flex;
         flex-direction: row;
     }
@@ -263,7 +240,7 @@ h2{
     }
    
         .p1crea{
-            width: 900px;
+            width: 100px;
             height: fit-content;
             display: flex;
             flex-direction: row;
@@ -287,7 +264,7 @@ h2{
          }
          .videocrea{
             padding-left:100px ;
-            border-bottom: 1000px;
+            border-bottom: 100px;
          }
             
             .divmusccrea{
@@ -330,7 +307,7 @@ h2{
                         width: auto;
                     }
                     .p1crea{
-                        width: 1300px;
+                        width: 1000px;
                         height: fit-content;
                         display: flex;
                         flex-direction: row;
@@ -349,7 +326,7 @@ h2{
                 width: auto;}
                   .videocrea{
                         padding-left:100px ;
-                        border-bottom: 1000px;
+                        border-bottom: 100px;
                         width: 500px;
                      }
                 }
