@@ -50,25 +50,7 @@ body{
 
 
 
-.menu{
-    list-style-type: none;
-    position: right ;
-}
-.menu li{
-    display: inline-block;
-    text-align: center;
-    position: right;
-}
-.menu li a{
-    text-decoration: none;
-    display: inline-block;
-    position:right;
-}
-.menu li a:hover{
-    color: rgb(255, 251, 0);
-    border-radius: 50%;
-    background-color: rgb(85, 85, 255);
-}
+
 nav{
     position: right;
 }
@@ -250,3 +232,285 @@ h2{
         margin-left: 1700px
     } 
 }
+.bodycrea{
+   
+    background-repeat: no-repeat;
+    background-size: 250%;
+    background-image: url(../imagenes/backruti.png)
+}
+.divmenu{
+    background-repeat: no-repeat ;
+    background-position: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-size: 436px;
+    margin-right: 1rem;
+    margin-top: 50px;
+    }
+   
+    .nutricion{
+        border: black solid 4px;
+        background-image: url(../imagenes/fondo\ menu.svg);
+    }
+    .ejersicio{
+        border: black solid 4px;
+        background-image: url(../imagenes/fondo\ menu.svg);
+    }
+    .contacto{
+        border: black solid 4px;
+        background-image: url(../imagenes/fondo\ menu.svg);
+    }
+   
+        .p1crea{
+            width: 900px;
+            height: fit-content;
+            display: flex;
+            flex-direction: row;
+            margin-left: 20px;
+         }
+            .divp1crea{
+                display: flex;
+                flex-direction: row;
+                align-content: space-evenly;
+                border-bottom: 1500px;
+            }
+            .listacrea{
+               padding-left: 100px;
+            margin-bottom: 500px;
+            border: black solid 2px;
+            height: fit-content;
+         }
+         .h2musccrea{
+            padding-left: 30px;
+            padding-bottom: 20px;
+         }
+         .videocrea{
+            padding-left:100px ;
+            border-bottom: 1000px;
+         }
+            
+            .divmusccrea{
+                display: flex;
+                flex-direction: row;}
+                p{
+                    font-family: 'Abril Fatface', 
+                }
+                h1{
+                    font-family: 'Cinzel Decorative', cursive;
+                }
+                @media screen and (min-width: 320px){
+                  .bodycrea{
+                    background-size: 8000%;
+                  } 
+                  .divp1crea{
+                    width: 100px;
+                    flex-direction: column;
+                  }
+                  .p1crea{
+                    width: 280px;
+                  }
+                  .listacrea{
+                    width: 280px;
+                  }
+                   .divmusccrea{
+                    flex-direction: column;
+                    width: 280px;
+                   }
+                   .videocrea{
+                    padding: 0;
+                    width: 300px;
+                }
+                @media screen and (min-width: 1200px){
+                    .divp1crea{
+                        
+                        flex-direction: row;
+                        align-content: space-evenly;
+                        border-bottom: 1500px;
+                        width: auto;
+                    }
+                    .p1crea{
+                        width: 1300px;
+                        height: fit-content;
+                        display: flex;
+                        flex-direction: row;
+                        margin-left: 20px;
+                     }
+                     .listacrea{
+                        padding-left: 100px;
+                     margin-bottom: 500px;
+                     border: black solid 2px;
+                     height: fit-content;
+                     width: 400px;
+                  }
+                  .divmusccrea{
+                    display: flex;
+                    flex-direction: row;
+                width: auto;}
+                  .videocrea{
+                        padding-left:100px ;
+                        border-bottom: 1000px;
+                        width: 500px;
+                     }
+                }
+            
+                .bodyej{
+                    background-image: url(../imagenes/backej.png);
+                    background-repeat: no-repeat;
+                    background-size: 250%;
+                }
+                .divmenu{
+                    background-repeat: no-repeat ;
+                    background-position: right;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-end;
+                    background-size: 436px;
+                    margin-right: 1rem;
+                    margin-top: 50px;
+                    }
+                    .rutina{
+                        border: black solid 4px;
+                        background-image: url(../imagenes/fondo\ menu.svg);
+                    }
+                    .nutricion{
+                        border: black solid 4px;
+                        background-image: url(../imagenes/fondo\ menu.svg);
+                    }
+                    .ejersicio{
+                        border: black solid 4px;
+                        background-image: url(../imagenes/fondo\ menu.svg);
+                    }
+                    .contacto{
+                        border: black solid 4px;
+                        background-image: url(../imagenes/fondo\ menu.svg);
+                    }
+                
+                
+                
+                
+                .divtdej{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    
+                }
+                .divseej{
+                    display: flex;
+                    flex-direction: row;
+                }
+                .pej{
+                    width: 900px;
+                    font-family: 'Abril Fatface', 
+                }
+                .h1ej{
+                    margin-top: 60px;
+                    margin-left: 40px;
+                    margin-bottom: 80px;
+                    font-family: 'Cinzel Decorative', cursive;
+                }
+                .videoej{
+                    margin-top: 60;
+                    padding: 20px;
+                }
+                .img1ej{
+                    height: 250px;
+                    border: solid black 8px;
+                }
+                .img2ej{
+                    height: 250px;
+                    border: solid black 8px;
+                }
+                .img3ej{
+                    height: 250px;
+                    border: solid black 8px;
+                }
+                .img4ej{
+                    height: 250px;
+                    border: solid black 8px;
+                }
+                .bodynu{
+                    background-image: url(../imagenes/backnutri.png);
+                    background-repeat: no-repeat;
+                    background-size: 250%;
+                }
+                
+                
+                
+                .h1nu{
+                margin-left: 30px;
+                }
+                .pnu{
+                    width: 800px;
+                    font-family: 'Abril Fatface', 
+                   
+                }
+                .h1nu{
+                    font-family: 'Cinzel Decorative', cursive;
+                }
+                .div1nu{
+                    display: flex;
+                    flex-direction: row;
+                    margin-top: 15px;
+                }
+                .videonu{
+                    margin-left: 60px;
+                }
+                .h2nu{
+                    margin-left: 15px;
+                    margin-top: 100px;
+                }
+                .div2nu{
+                    display: flex;
+                    flex-direction: row;
+                    margin-top: 15px;
+                }
+                .macrosnu{
+                    width: 500px;
+                }
+                .carbsnu{
+                    width: 500px;
+                }
+                .grasasnu{
+                    width: 500px;
+                }
+                .protenu{
+                    width: 500px;
+                }
+                .fotosnu{
+                    display: flex;
+                    flex-direction: row;
+                    align-content: space-between;
+                    justify-content: space-around;
+                }
+                .fmacrosnu{
+                    display: flex;
+                    flex-direction: column;
+                
+                }
+                .pmacnu{
+                    width: 300px;
+                }
+                
+                .bodycon{
+                    background-image: url(../imagenes/back\ cont.png);
+                    background-repeat: no-repeat;
+                    background-size: 250%;
+                }
+                
+                    
+                
+                
+                
+                
+                .h1con{
+                    margin-top: 40px;
+                    margin-left: 40px;
+                    font-family: 'Cinzel Decorative', cursive;
+                }
+                .p1con{
+                    margin-top: 50px;
+                    margin-left: 100px;
+                    width: 600px;
+                    font-family: 'Abril Fatface', 
+                }
