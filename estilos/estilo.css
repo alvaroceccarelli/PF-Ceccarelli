@@ -142,6 +142,27 @@ h2{
     padding-left: 0px;
     width: 200px;
 }
+.bodycrea{
+    background-size: 8000%;
+  } 
+  .divp1crea{
+    width: 100px;
+    flex-direction: column;
+  }
+  .p1crea{
+    width: 280px;
+  }
+  .listacrea{
+    width: 280px;
+  }
+   .divmusccrea{
+    flex-direction: column;
+    width: 280px;
+   }
+   .videocrea{
+    padding: 0;
+    width: 300px;
+}
 }
 
 
@@ -208,6 +229,36 @@ h2{
     .pig{
         margin-left: 1700px
     } 
+    .divp1crea{
+                        
+        flex-direction: row;
+        align-content: space-evenly;
+        border-bottom: 1500px;
+        width: auto;
+    }
+    .p1crea{
+        width: 1000px;
+        height: fit-content;
+        display: flex;
+        flex-direction: row;
+        margin-left: 20px;
+     }
+     .listacrea{
+        padding-left: 100px;
+     margin-bottom: 500px;
+     border: black solid 2px;
+     height: fit-content;
+     width: 400px;
+  }
+  .divmusccrea{
+    display: flex;
+    flex-direction: row;
+width: auto;}
+  .videocrea{
+        padding-left:100px ;
+        border-bottom: 100px;
+        width: 500px;
+     }
 }
 .bodycrea{
    
@@ -215,29 +266,7 @@ h2{
     background-size: 250%;
     background-image: url(../imagenes/backruti.png)
 }
-.divmenu{
-    background-repeat: no-repeat ;
-    background-position: right;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    background-size: 436px;
-    margin-right: 1rem;
-    margin-top: 50px;
-    }
-   
-    .nutricion{
-        border: black solid 4px;
-        background-image: url(../imagenes/fondo\ menu.svg);
-    }
-    .ejersicio{
-        border: black solid 4px;
-        background-image: url(../imagenes/fondo\ menu.svg);
-    }
-    .contacto{
-        border: black solid 4px;
-        background-image: url(../imagenes/fondo\ menu.svg);
-    }
+
    
         .p1crea{
             width: 100px;
@@ -276,92 +305,15 @@ h2{
                 h1{
                     font-family: 'Cinzel Decorative', cursive;
                 }
-                @media screen and (min-width: 320px){
-                  .bodycrea{
-                    background-size: 8000%;
-                  } 
-                  .divp1crea{
-                    width: 100px;
-                    flex-direction: column;
-                  }
-                  .p1crea{
-                    width: 280px;
-                  }
-                  .listacrea{
-                    width: 280px;
-                  }
-                   .divmusccrea{
-                    flex-direction: column;
-                    width: 280px;
-                   }
-                   .videocrea{
-                    padding: 0;
-                    width: 300px;
-                }
-                @media screen and (min-width: 1200px){
-                    .divp1crea{
-                        
-                        flex-direction: row;
-                        align-content: space-evenly;
-                        border-bottom: 1500px;
-                        width: auto;
-                    }
-                    .p1crea{
-                        width: 1000px;
-                        height: fit-content;
-                        display: flex;
-                        flex-direction: row;
-                        margin-left: 20px;
-                     }
-                     .listacrea{
-                        padding-left: 100px;
-                     margin-bottom: 500px;
-                     border: black solid 2px;
-                     height: fit-content;
-                     width: 400px;
-                  }
-                  .divmusccrea{
-                    display: flex;
-                    flex-direction: row;
-                width: auto;}
-                  .videocrea{
-                        padding-left:100px ;
-                        border-bottom: 100px;
-                        width: 500px;
-                     }
-                }
+               
+               
             
                 .bodyej{
                     background-image: url(../imagenes/backej.png);
                     background-repeat: no-repeat;
                     background-size: 250%;
                 }
-                .divmenu{
-                    background-repeat: no-repeat ;
-                    background-position: right;
-                    display: flex;
-                    flex-direction: row;
-                    justify-content: flex-end;
-                    background-size: 436px;
-                    margin-right: 1rem;
-                    margin-top: 50px;
-                    }
-                    .rutina{
-                        border: black solid 4px;
-                        background-image: url(../imagenes/fondo\ menu.svg);
-                    }
-                    .nutricion{
-                        border: black solid 4px;
-                        background-image: url(../imagenes/fondo\ menu.svg);
-                    }
-                    .ejersicio{
-                        border: black solid 4px;
-                        background-image: url(../imagenes/fondo\ menu.svg);
-                    }
-                    .contacto{
-                        border: black solid 4px;
-                        background-image: url(../imagenes/fondo\ menu.svg);
-                    }
+                
                 
                 
                 
