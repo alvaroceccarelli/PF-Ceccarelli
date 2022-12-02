@@ -105,161 +105,11 @@ h2{
 }
 
 
-@media screen and (min-width: 320px){
-    body{
-        background-size: 9000%;
-    }
-    .p1{
-        flex-direction: column;
-        width: 260px
-    }
-    .imagennosotros{
-        width: 390px;
-        padding-left: 0px;
-    }
-    .p2{
-        flex-direction: column;
-        width: 260px;
-    }
-    .rutina2{
-        width: 300px;
-        height: 400px;
-        padding-left: 0px;
-    }
-    .p3{
-        flex-direction: column;
-        width:260px;
-    }
-.divfoot{
-    width: 50px;
-    flex-direction: column;
-}
-.piramide{
-    padding: 0;
-    width: 300px;
-}
-.ulf{
-    padding-left: 0px;
-    width: 200px;
-}
-.bodycrea{
-    background-size: 8000%;
-  } 
-  .divp1crea{
-    width: 100px;
-    flex-direction: column;
-  }
-  .p1crea{
-    width: 280px;
-  }
-  .listacrea{
-    width: 280px;
-  }
-   .divmusccrea{
-    flex-direction: column;
-    width: 280px;
-   }
-   .videocrea{
-    padding: 0;
-    width: 300px;
-}
-}
 
 
 
-@media screen and (min-width: 1200px){
-    .p1{
-        width: 1300px;
-        display: flex;
-        flex-direction: row;
-    }
-    .imagennosotros{
-        width: 600px;
-        height: 250px;
-        padding-left: 100px;
-        
-        image-rendering: optimizeQuality;
-        }
-    .p2{
-        width: 1300px;
-        display: flex;
-        flex-direction: row;
-    }
-    .rutina2{
-        width: 700px;
-        height: 300px;
-        padding-left: 50px;
-    }
-    .piramide{
-        width: 500px;
-        height: 300px;
-        padding-left: 100px;
-        margin-top: 40px;
-    }
-    
-    
-    
-    .p3{
-        width: 1300px;
-        display: flex;
-        flex-direction: row;
-    }
-    footer{
-        padding-top: 200px;
-        padding-bottom: 100px;
-    }
-    .divfoot{
-        display: flex;
-        flex-direction: row;
-        align-content: space-between;
-    }
-    .ulf{
-        padding-left: 50px;
-    }
-    .imgf{
-        width: 500px;
-    }
-    .ig{
-        width: 100px;
-    }
-    svg{
-        width: 100px;
-        margin-left: 1700px;
-    }
-    .pig{
-        margin-left: 1700px
-    } 
-    .divp1crea{
-                        
-        flex-direction: row;
-        align-content: space-evenly;
-        border-bottom: 1500px;
-        width: auto;
-    }
-    .p1crea{
-        width: 1000px;
-        height: fit-content;
-        display: flex;
-        flex-direction: row;
-        margin-left: 20px;
-     }
-     .listacrea{
-        padding-left: 100px;
-     margin-bottom: 500px;
-     border: black solid 2px;
-     height: fit-content;
-     width: 400px;
-  }
-  .divmusccrea{
-    display: flex;
-    flex-direction: row;
-width: auto;}
-  .videocrea{
-        padding-left:100px ;
-        border-bottom: 100px;
-        width: 500px;
-     }
-}
+
+
 .bodycrea{
    
     background-repeat: no-repeat;
@@ -442,4 +292,394 @@ width: auto;}
                     margin-left: 100px;
                     width: 600px;
                     font-family: 'Abril Fatface', 
+                }
+                @media screen and (min-width: 320px){
+                    body{
+                        background-size: 9000%;
+                    }
+                    .p1{
+                        flex-direction: column;
+                        width: 260px
+                    }
+                    .imagennosotros{
+                        width: 390px;
+                        padding-left: 0px;
+                    }
+                    .p2{
+                        flex-direction: column;
+                        width: 260px;
+                    }
+                    .rutina2{
+                        width: 300px;
+                        height: 400px;
+                        padding-left: 0px;
+                    }
+                    .p3{
+                        flex-direction: column;
+                        width:260px;
+                    }
+                .divfoot{
+                    width: 50px;
+                    flex-direction: column;
+                }
+                .piramide{
+                    padding: 0;
+                    width: 300px;
+                }
+                .ulf{
+                    padding-left: 0px;
+                    width: 200px;
+                }
+                .bodycrea{
+                    background-size: 9000%;
+                  } 
+                  .divp1crea{
+                    width: 100px;
+                    flex-direction: column;
+                  }
+                  .p1crea{
+                    width: 280px;
+                  }
+                  .listacrea{
+                    width: 280px;
+                  }
+                   .divmusccrea{
+                    flex-direction: column;
+                    width: 280px;
+                   }
+                   .videocrea{
+                    padding: 0;
+                    width: 300px;
+                }
+
+
+
+
+                .bodyej{
+                    background-size: 9000%;
+                }
+                .divtdej{
+                    display: flex;
+                    flex-direction: column;
+                    width: 50px;
+                }
+                .divseej{
+                    display: flex;
+                    flex-direction: column;
+                }
+                .pej{
+                    width: 300px;
+                    font-family: 'Abril Fatface', 
+                }
+                .h1ej{
+                    margin-top: 60px;
+                    margin-left: 40px;
+                    margin-bottom: 80px;
+                    font-family: 'Cinzel Decorative', cursive;
+                }
+                .videoej{
+                    margin-top: 60;
+                    padding: 20px;
+                    width: 330px;
+                }
+                .img1ej{
+                    height: 250px;
+                    border: solid black 8px;
+                    width: 300px;
+                }
+                .img2ej{
+                    height: 250px;
+                    border: solid black 8px;
+                    width: 300px;
+                }
+                .img3ej{
+                    height: 250px;
+                    border: solid black 8px;
+                    width: 300px;
+                }
+                .img4ej{
+                    height: 250px;
+                    border: solid black 8px;
+                    width: 300px;
+                }
+
+
+
+                .bodynu{
+                    
+                    background-size: 9000%;
+                }
+              
+                .pnu{
+                    width: 300px;
+                    font-family: 'Abril Fatface', 
+                   
+                }
+                
+                .div1nu{
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 15px;
+                    width: 300px;
+                }
+                .videonu{
+                    margin-right: 400px;
+                    width: 230px;
+                }
+                
+                .div2nu{
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: 15px;
+                width: 300px;
+                }
+                   
+                }
+                .macrosnu{
+                    width: 300px;
+                }
+                .carbsnu{
+                    width: 300px;
+                }
+                .grasasnu{
+                    width: 300px;
+                }
+                .protenu{
+                    width: 300px;
+                }
+                .fotosnu{
+                    display: flex;
+                    flex-direction: column;
+                    align-content: space-between;
+                    justify-content: space-around;
+                }
+                .fmacrosnu{
+                    display: flex;
+                    flex-direction: column;
+                
+                }
+                .pmacnu{
+                    width: 300px;
+                }
+            
+
+.bodycon{
+    background-size: 9000%;
+}
+
+
+              
+                .p1con{
+                    margin-top: 50px;
+                   
+                    width: 200px;
+                    font-family: 'Abril Fatface', 
+                }
+
+
+                @media screen and (min-width: 1200px){
+                    .p1{
+                        width: 1300px;
+                        display: flex;
+                        flex-direction: row;
+                    }
+                    .imagennosotros{
+                        width: 600px;
+                        height: 250px;
+                        padding-left: 100px;
+                        
+                        image-rendering: optimizeQuality;
+                        }
+                    .p2{
+                        width: 1300px;
+                        display: flex;
+                        flex-direction: row;
+                    }
+                    .rutina2{
+                        width: 700px;
+                        height: 300px;
+                        padding-left: 50px;
+                    }
+                    .piramide{
+                        width: 500px;
+                        height: 300px;
+                        padding-left: 100px;
+                        margin-top: 40px;
+                    }
+                    
+                    
+                    
+                    .p3{
+                        width: 1300px;
+                        display: flex;
+                        flex-direction: row;
+                    }
+                    footer{
+                        padding-top: 200px;
+                        padding-bottom: 100px;
+                    }
+                    .divfoot{
+                        display: flex;
+                        flex-direction: row;
+                        align-content: space-between;
+                    }
+                    .ulf{
+                        padding-left: 50px;
+                    }
+                    .imgf{
+                        width: 500px;
+                    }
+                    .ig{
+                        width: 100px;
+                    }
+                    svg{
+                        width: 100px;
+                        margin-left: 1700px;
+                    }
+                    .pig{
+                        margin-left: 1700px
+                    } 
+                    .divp1crea{
+                                        
+                        flex-direction: row;
+                        align-content: space-evenly;
+                        border-bottom: 1500px;
+                        width: auto;
+                    }
+                    .p1crea{
+                        width: 1000px;
+                        height: fit-content;
+                        display: flex;
+                        flex-direction: row;
+                        margin-left: 20px;
+                     }
+                     .listacrea{
+                        padding-left: 100px;
+                     margin-bottom: 500px;
+                     border: black solid 2px;
+                     height: fit-content;
+                     width: 400px;
+                  }
+                  .divmusccrea{
+                    display: flex;
+                    flex-direction: row;
+                width: auto;}
+
+                  .videocrea{
+                        padding-left:100px ;
+                        border-bottom: 100px;
+                        width: 500px;
+                     }
+
+                     .divtdej{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-evenly;
+                        width: 1900px;
+                        
+                    }
+                    .divseej{
+                        display: flex;
+                        flex-direction: row;
+                    }
+                    .pej{
+                        width: 900px;
+                        font-family: 'Abril Fatface', 
+                    }
+                    .h1ej{
+                        margin-top: 60px;
+                        margin-left: 40px;
+                        margin-bottom: 80px;
+                        font-family: 'Cinzel Decorative', cursive;
+                    }
+                    .videoej{
+                        margin-top: 60;
+                        padding: 20px;
+                        width: 400px;
+                    }
+                    .img1ej{
+                        height: 250px;
+                        border: solid black 8px;
+                        width: 300px;
+                    }
+                    .img2ej{
+                        height: 250px;
+                        border: solid black 8px;
+                        width: 300px;
+                    }
+                    .img3ej{
+                        height: 250px;
+                        border: solid black 8px;
+                        width: 300px;
+                    }
+                    .img4ej{
+                        height: 250px;
+                        border: solid black 8px;
+                        width: 300px;
+                    }
+
+
+
+                   
+                        .pnu{
+                            width: 1300px;
+                            display: flex;
+                            flex-direction: row;
+                         }
+                        
+                        .div1nu{
+                            display: flex;
+                            flex-direction: row;
+                            margin-top: 15px;
+                            width: 8000px;
+                        }
+                        .videonu{
+                            margin-left: 60px;
+                            width: 400px;
+                        }
+                        .h2nu{
+                            margin-left: 15px;
+                            margin-top: 100px;
+                        }
+                        .div2nu{
+                            display: flex;
+                            flex-direction: row;
+                            margin-top: 15px;
+                            width: 1200px;
+                        }
+                        .macrosnu{
+                            width: 1000px;
+                        }
+                        .carbsnu{
+                            width: 500px;
+                        }
+                        .grasasnu{
+                            width: 500px;
+                        }
+                        .protenu{
+                            width: 500px;
+                        }
+                        .fotosnu{
+                            display: flex;
+                            flex-direction: row;
+                            align-content: space-between;
+                            justify-content: space-around;
+                            
+                        }
+                        .fmacrosnu{
+                            display: flex;
+                            flex-direction: column;
+                        
+                        }
+                        .pmacnu{
+                            width: 400px;
+                        }
+
+
+                        .p1con{
+                            margin-top: 50px;
+                           
+                            width: 1000px;
+                            font-family: 'Abril Fatface', 
+                        }
                 }
