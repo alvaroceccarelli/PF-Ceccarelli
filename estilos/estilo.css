@@ -208,6 +208,7 @@ h2{
                     height: 250px;
                     border: solid black 8px;
                 }
+
                 .bodynu{
                     background-image: url(../imagenes/backnutri.png);
                     background-repeat: no-repeat;
@@ -262,9 +263,9 @@ h2{
                     align-content: space-between;
                     justify-content: space-around;
                 }
-                .fmacrosnu{
+               .fmacrosnu{
                     display: flex;
-                    flex-direction: column;
+                     flex-direction: column;
                 
                 }
                 .pmacnu{
