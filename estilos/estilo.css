@@ -300,15 +300,17 @@ h2{
                     }
                     .p1{
                         flex-direction: column;
-                        width: 260px
+                        width: 260px;
+                        padding-left: 25px;
                     }
                     .imagennosotros{
                         width: 390px;
-                        padding-left: 0px;
+                        padding-left: 25px;
                     }
                     .p2{
                         flex-direction: column;
                         width: 260px;
+                        padding-left: 25px;
                     }
                     .rutina2{
                         width: 300px;
@@ -318,6 +320,7 @@ h2{
                     .p3{
                         flex-direction: column;
                         width:260px;
+                        padding-left: 25px;
                     }
                 .divfoot{
                     width: 50px;
@@ -343,14 +346,18 @@ h2{
                   }
                   .listacrea{
                     width: 280px;
+                    box-align: center;
+                    margin-left: 20px;
                   }
                    .divmusccrea{
                     flex-direction: column;
                     width: 280px;
+                    padding-left: 20px;
                    }
                    .videocrea{
                     padding: 0;
                     width: 300px;
+                    padding-left: 20px;
                 }
 
 
